@@ -1,75 +1,69 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Hielo Total</title>
-    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
-    <!-- scripts -->
-    <script src="libs/jquery/jquery.min.js"></script>
-    <script src="libs/owlcarousel/owl.carousel.min.js"></script>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+<head>
+  <meta charset="utf-8"/>
+  <title>Hielo Total</title>
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/index.css"></li>
+  <link  href="img/2.ico" type="image/">
+  <!-- scripts -->
+  <script src="libs/jquery/jquery.min.js"></script>
+  <script src="libs/owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img class="circle" src="img/2.ico" alt="" title="" width="40px">
+    <a class="navbar-brand" href="#">Hielo Total</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Productos <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contactos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nuestros clientes</a>
+        </li>
       </div>
     </nav>
-  <!-- Carousel -->
-  <div class="owl-carousel owl-theme" id="carouselPpal">
-    <div class="item"><h4>1</h4></div>
-    <div class="item">
-      asascascscacs<h4>2</h4>
+    <!-- Carousel -->
+    <div class="owl-carousel owl-theme" id="carouselPpal">
+      <div class="item">
+        <img class="imgPpal" src="img/hielo.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="imgPpal" src="img/hielo2.jpg" alt="">
+      </div>
+      <div class="item">
+        <img class="imgPpal" src="img/hielo3.jpg" alt="">
+      </div>
     </div>
-    <div class="item">ascasdcasdcsdac<h4>3</h4></div>
-  </div>
 
-  <script>
-    $('#carouselPpal').owlCarousel({
-      loop:true,
-      margin:10,
-      responsiveClass:true,
-      responsive:{
-        0:{
-          items:1,
-          nav:true
+    <script>
+      $('#carouselPpal').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+          0:{
+            items:1,
+            nav:true
+          }
         }
-      }
-    })
-  </script>
-  <!-- scripts -->
-  <script src="libs/bootstrap/js/bootstrap.min.js"></script>
-  <script src="libs/popper.js/popper.min.js"></script>
+      })
+    </script>
+    <!-- scripts -->
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="libs/popper.js/popper.min.js"></script>
   </body>
-</html>
+  </html>
