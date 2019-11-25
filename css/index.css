@@ -82,7 +82,11 @@
 }
 .title_footer{
   font-size: 20px;
+  font-family: Londrina Solid;
 }
 .border-bottom-footer{
   border-bottom: 4px solid #030b59;
+}
+.bg-blue{
+  background-color: #27e2ff;
 }
