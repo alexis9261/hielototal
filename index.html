@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/index.css"></li>
-  <link rel="icon" type="image/jpg" sizes="16x16" href="img/logo.jpg">
+  <link rel="icon" type="image/jpg" sizes="16x16" href="img/favicon.png">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- scripts -->
   <script src="libs/jquery/jquery.min.js"></script>
@@ -50,8 +50,9 @@
   <div class="owl-carousel owl-theme" id="carouselPpal">
     <div class="item">
       <img class="imgPpal d-none d-sm-block" src="img/ppal.png" alt="Hielo Frio">
-      <img class="imgPpalCel d-block d-sm-none" src="img/ppal.png" alt="Hielo Frio">
-      <div class="container imagen_iconos">
+      <img class="imgPpalCel d-sm-none" src="img/blanco.png" alt="Hielo Frio">
+      <!-- PC -->
+      <div class="container imagen_iconos d-none d-sm-block">
         <div class="row justify-content-around ml-5 pl-5">
           <div class="col-auto text-center">
             <a href="productos.html">
@@ -64,7 +65,7 @@
           <div class="col-auto text-center">
             <a href="servicios.html" style="font-size:20px;">
             <img class="img_icon" src="img/ServiTotal.png" alt="ServiTotal" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-              <span class="text-dark" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="2000"><strong>Servicio Tecnico</strong></span>
+              <span class="text-dark" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="2000"><strong>Servicio Técnico</strong></span>
               <br>
               <span class="text-dark" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="2000"><strong>Fabricadores de Hielo</strong></span>
             </a>
@@ -74,44 +75,55 @@
           <h2 class="col-auto mt-5 pt-5 lead d-none d-sm-block" style="font-family: 'Open Sans Condensed', sans-serif; font-size:50px;" ><strong>Venta y Servicio de Equipos Fabricadores de Hielo</strong></h2>
         </div>
       </div>
+      <!-- Celular -->
+      <section class="d-sm-none">
+        <div class="container imagen_iconos">
+          <div class="row justify-content-center text-center">
+            <a class="col-auto" href="productos.html">
+              <img class="img_icon_cel ml-5" src="img/logo_hielototal.png" alt="HieloTotal" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <span class="text-dark" style="font-size:15px;" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="2000">
+                <strong>Venta Fabricadores de Hielo</strong>
+              </span>
+            </a>
+          </div>
+          <div class="row justify-content-center text-center mt-3">
+            <a class="col-auto" href="servicios.html" style="font-size:15px;">
+              <img class="img_icon_cel ml-4 pl-2" src="img/ServiTotal.png" alt="ServiTotal" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <span class="text-dark" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="2000"><strong>Servicio Técnico</strong></span>
+              <br>
+              <span class="text-dark" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100" data-aos-offset="0" data-aos-duration="2000"><strong>Fabricadores de Hielo</strong></span>
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
-    <div class="item">
-      <img class="imgPpal d-none d-sm-block" src="img/imagePpal2.jpeg" alt="">
-      <img class="imgPpalCel d-block d-sm-none" src="img/imagePpal2.jpeg" alt="Hielo Frio">
-      <!--div class="container logo_absolute">
-        <div class="row">
-          <div class="col-auto ml-auto">
-          </div>
-        </div>
-        <div class="row justify-content-center mt-5">
-          <div class="col-auto d-block d-sm-none">
-            <img class="img_logo_cel" src="img/logo.jpg" alt="Hielo Total">
-          </div>
-        </div>
-      </div-->
-      <img class="img_logo d-none d-sm-block" src="img/logo.jpg" alt="Hielo Total">
-      <div class="container text_absolute d-none d-sm-block">
+    <!--div class="item">
+      <div class="fondo_test">
+      </div>
+      <img class="imgPpal d-none d-sm-block" src="img/fondo2.png" alt="Hielo Frio">
+      <img class="imgPpalCel d-sm-none" src="img/km650.png" alt="Hielo Total">
+      <div class="container text_absolute d-none d-sm-block ml-5">
         <div class="row mt-5">
-          <h2 class="col-auto ml-5 text_fondo px-5 py-2" style="color:#2612ff;font-size:2em;font-weight:700;"><strong>Hielo Total, C.A.</strong></h2>
+          <h2 class="col-auto ml-5 text_fondo px-5 py-2" style="color:#4f33ff;font-size:2em;font-weight:700;"><strong>HIELOTOTAL, C.A.</strong></h2>
         </div>
         <div class="row">
-          <h2 class="col-auto ml-5 text_fondo px-5 py-2 d-none d-sm-block" style="font-family:'Open Sans Condensed',sans-serif;font-size:30px;"><strong>Servicios totales pensados en frío</strong></h2>
+          <h2 class="col-auto ml-5 text_fondo px-5 py-2 d-none d-sm-block text-white" style="font-family:'Open Sans Condensed',sans-serif;font-size:30px;"><strong>Servicios totales pensados en frío</strong></h2>
         </div>
         <div class="row">
-          <h2 class="col-auto ml-5 lead d-none d-sm-block" style="font-family:'Open Sans Condensed',sans-serif;font-size:40px;"><strong>Con más de 19 años de experiencia</strong></h2>
+          <h2 class="col-auto ml-5 lead d-none d-sm-block text_fondo_2 text-white" style="font-family:'Open Sans Condensed',sans-serif;font-size:40px;"><strong>Con más de 19 años de experiencia</strong></h2>
         </div>
       </div>
       <div class="d-block d-sm-none">
         <div class="container text_absolute">
           <div class="row justify-content-center">
-            <h2 class="col-auto text_fondo px-4 py-2 mt-5" style="color:#2612ff;font-size:1em;font-weight:400;"><strong>Hielo Total, C.A.</strong></h2>
+            <h2 class="col-auto text_fondo px-4 py-2 mt-5" style="color:#2612ff;font-size:1em;font-weight:400;"><strong>HIELOTOTAL, C.A.</strong></h2>
           </div>
           <div class="row justify-content-center">
-            <h2 class="col-auto text_fondo px-2 py-2" style="font-family:'Open Sans Condensed',sans-serif;font-size:20px;"><strong>Servicios totales pensados en frío</strong></h2>
+            <h2 class="col-auto text_fondo px-2 py-2 text-white" style="font-family:'Open Sans Condensed',sans-serif;font-size:20px;"><strong>Servicios totales pensados en frío</strong></h2>
           </div>
         </div>
       </div>
-    </div>
+    </div-->
   </div>
   <script>
     $('#carouselPpal').owlCarousel({
@@ -211,10 +223,17 @@
   <!-- Productos -->
   <div class="container">
     <div class="row justify-content-center">
-      <div class="mt-3">
+      <div class="col-auto mt-3 d-none d-md-block">
         <div class="linea">&nbsp;</div>
-        <span class="leyenda text-dark">Algunos de nuestros <strong class="text-primary">productos</strong> </span>
+        <span class="leyenda text-dark">Nuestros <strong class="text-primary">productos</strong> </span>
         <div class="linea">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="mt-3 d-md-none">
+        <span class="leyenda text-dark">Nuestros <strong class="text-primary">productos</strong> </span>
       </div>
     </div>
   </div>
