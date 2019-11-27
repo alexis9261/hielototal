@@ -78,18 +78,29 @@
   fill:#308dff;
 }
 .footer{
-  border-top: 10px #303030 solid;
+  border-top: 10px #989D9E solid;
 }
 .title_footer{
-  font-size: 20px;
-  font-family: Londrina Solid;
+  font-size: 25px;
+  font-family: "Calistoga",cursive;
 }
 .border-bottom-footer{
-   border-bottom: 4px solid #000000;
+   border-bottom: 4px solid #10B7FA;
 }
 .bg-blue{
    background-color: #595959;
  }
+ .bg-blue2{
+    background-color: #989D9E;
+  }
  .color-si{
+   color: #FFFFFF;
+ }
+ .color-si:hover{
+   color:#10B7FA;
+ }
 
+ }
+ ul {
+   list-style-type: square;
  }
