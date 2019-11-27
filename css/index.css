@@ -78,15 +78,15 @@
   fill:#308dff;
 }
 .footer{
-  border-top: 10px #000000 solid;
+  border-top: 10px #303030 solid;
 }
 .title_footer{
   font-size: 20px;
   font-family: Londrina Solid;
 }
 .border-bottom-footer{
-  border-bottom: 4px solid #030b59;
+   border-bottom: 4px solid #000000;
 }
 .bg-blue{
-  background-color: #27e2ff;
-}
+   background-color: #595959;
+ }
