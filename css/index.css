@@ -1,0 +1,107 @@
+.circle{
+  border-radius: 50%;
+}
+.imgPpal{
+  height: 100vh;
+  position: relative;
+}
+.imgPpalCel{
+  height: 86vh;
+  width: auto;
+}
+.imagen_iconos{
+  position: absolute;
+  top: 95px;
+}
+.img_icon{
+  opacity: 0.6;
+  max-width: 250px;
+  height: auto;
+}
+.img_icon:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.enlace:hover{
+  color: #adadad;
+}
+.nav-shadow{
+  -webkit-box-shadow: 0px 1px 7px 0px rgba(179,179,179,1);
+  -moz-box-shadow: 0px 1px 7px 0px rgba(179,179,179,1);
+  box-shadow: 0px 1px 7px 0px rgba(179,179,179,1);
+}
+.text_absolute{
+  position: absolute;
+  top: 50%;
+}
+.text_fondo{
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 8px;
+}
+.img_logo{
+  position: absolute;
+  left: 80%;
+  top: 15%;
+  max-width: 10%;
+  border-radius: 50%;
+}
+.img_logo_cel{
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  max-width: 40%;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.linea{
+  margin:0px 20px;
+  width:150px;
+  border-top:2px solid #000;
+  border-bottom: 2px solid #000;
+  position: relative;
+  top:28px;
+  float:left;
+  line-height: 10px;
+}
+.leyenda{
+  font-size: 40px;
+  float:left;
+}
+.img_product{
+  max-height: 200px;
+  width:auto;
+}
+.svg_carac{
+  fill:#adadad;
+}
+.svg_carac:hover{
+  fill:#308dff;
+}
+.footer{
+  border-top: 10px #989D9E solid;
+  font-size: 19px;
+}
+.title_footer{
+  font-size: 25px;
+  font-family: "Calistoga",cursive;
+}
+.border-bottom-footer{
+   border-bottom: 4px solid #10B7FA;
+}
+.bg-blue{
+   background-color: #595959;
+ }
+ .bg-blue2{
+    background-color: #989D9E;
+  }
+ .color-si{
+   color: #FFFFFF;
+ }
+ .color-si:hover{
+   color:#10B7FA;
+ }
+
+ }
+ ul {
+   list-style-type: square;
+ }
