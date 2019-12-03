@@ -22,8 +22,12 @@
   opacity: 1;
   cursor: pointer;
 }
+.img_icon_cel{
+  max-width: 30vw;
+  height: auto;
+}
 .enlace:hover{
-  color: #adadad;
+  color: #7e7e7e;
 }
 .nav-shadow{
   -webkit-box-shadow: 0px 1px 7px 0px rgba(179,179,179,1);
@@ -54,10 +58,9 @@
   opacity: 0.8;
 }
 .linea{
-  margin:0px 20px;
-  width:150px;
-  border-top:2px solid #000;
-  border-bottom: 2px solid #000;
+  margin:5px 20px;
+  width:100px;
+  border-top:3px solid #000;
   position: relative;
   top:28px;
   float:left;
@@ -77,31 +80,37 @@
 .svg_carac:hover{
   fill:#308dff;
 }
-.footer{
-  border-top: 10px #989D9E solid;
-  font-size: 19px;
-}
 .title_footer{
   font-size: 25px;
-  font-family: "Calistoga",cursive;
 }
 .border-bottom-footer{
-   border-bottom: 4px solid #10B7FA;
+   border-bottom: 4px solid #fff;
 }
-.bg-blue{
-   background-color: #595959;
+.bg-footer{
+   background-color: #303030;
  }
- .bg-blue2{
-    background-color: #989D9E;
+ .bg-footer2{
+    background-color: #252525;
   }
  .color-si{
-   color: #FFFFFF;
+   color: #adadad;
  }
  .color-si:hover{
-   color:#10B7FA;
+   color:#1a1a1a;
+  text-decoration: none;
  }
-
- }
- ul {
-   list-style-type: square;
- }
+.border_title_footer{
+  border-bottom: solid 2px #fff;
+}
+.img_modal{
+  width: 60vw;
+}
+.img_clientes{
+  width: 125px;
+  height: auto;
+}
+.text_clientes{
+  font-weight: 500;
+  font-size: 25px;
+  color: #adadad;
+}
